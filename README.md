@@ -8,27 +8,28 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 ===================================
 
 1.datasets: 
-            english gigaword 5th edition(https://catalog.ldc.upenn.edu/LDC2011T07), ltw_eng
+        
+        english gigaword 5th edition(https://catalog.ldc.upenn.edu/LDC2011T07), ltw_eng
 
-s-datasets: 
+        s-datasets: 
             #100 000 documents (random select & document length more than 1000 characters)
             
             #102644 words (at least occur 5 times)
 
-b-datasets: 
+        b-datasets: 
             #1 000 000 documents
 
 ===================================
 
 2.data preprocessing
 
-source code:
+        source code:
 
             step1_data_preprocessing.py: select documents from gigaword, filter documents that less than 1000 characters 
   
             step2_glda_format.py: filter words that occur less than 5 times
 
-gibbs lda: http://gibbslda.sourceforge.net/
+        gibbs lda: http://gibbslda.sourceforge.net/
 
 ===================================
 
