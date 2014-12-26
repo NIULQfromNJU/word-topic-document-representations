@@ -33,10 +33,20 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
 ===================================
 
-3. Using GibbdLDA, we get the topic words of LDA, the file is model-final.twords
+3.Using GibbdLDA, we get the topic words of LDA, the file is model-final.twords. In our experiments, we compare the LDA with our model TW about topic words.
 
 ===================================
 
-4. 1
+4.
+
+===================================
+
+5.
+
+===================================
+
+6.
+
+===================================
 
 
