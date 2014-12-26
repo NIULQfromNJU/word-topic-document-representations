@@ -12,7 +12,7 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
         english gigaword 5th edition(https://catalog.ldc.upenn.edu/LDC2011T07), ltw_eng
 
         s-datasets: 
-            #100 000 documents (random select & document length more than 1000 characters)
+            #100 000 documents (random select document which's length is more than 1000 characters)
             
             #102644 words (at least occur 5 times)
 
@@ -25,7 +25,7 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
         source code:
 
-            step1_data_preprocessing.py: select documents from gigaword, filter documents that less than 1000 characters 
+            step1_data_preprocessing.py: select documents from gigaword, filter documents that involve less than 1000 characters 
   
             step2_glda_format.py: filter words that occur less than 5 times
 
@@ -33,6 +33,10 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
 ===================================
 
-3.
+3. Using GibbdLDA, we get the topic words of LDA, the file is model-final.twords
+
+===================================
+
+4. 1
 
 
