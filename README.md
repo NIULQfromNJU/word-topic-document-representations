@@ -9,15 +9,17 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
 1.datasets: 
         
-        english gigaword 5th edition(https://catalog.ldc.upenn.edu/LDC2011T07), ltw_eng
+        english gigaword 5th edition(https://catalog.ldc.upenn.edu/LDC2011T07)
 
         s-datasets: 
-            #100 000 documents (random select document which's length is more than 1000 characters)
+            #100 000 documents from subfolder ltw_eng (random select document which's length is more than 1000 characters)
             
             #102644 words (at least occur 5 times)
 
         b-datasets: 
-            #1 000 000 documents
+            #1 000 000 documents from subfolder nyt_eng
+            
+            #227400 words (at least occur 10 times)
 
 ===================================
 
@@ -27,7 +29,7 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
             step1_data_preprocessing.py: select documents from gigaword, filter documents that involve less than 1000 characters 
   
-            step2_glda_format.py: filter words that occur less than 5 times
+            step2_glda_format.py: filter words that occur less than 5/10 times
 
         gibbs lda: http://gibbslda.sourceforge.net/
 
@@ -37,15 +39,51 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
 ===================================
 
-4.
+4. Models
+        word2vec:
+                proposed by Mikolov et al., available at https://code.google.com/p/word2vec/.
+                CBOW:
+
+                Skip-gram:
+        
+        TW:     combining word and topic
+                1
+
+        LW:     combining word an lemma
+                2
+        
+        TW-LW:  combining word, lemma and topic 
+                3
+        
+        DTW:    combining word, topic and document
+                4
 
 ===================================
 
-5.
+5. Experiments
+        (1).word analogies:
+                google dataset:
+                        Athens Greece Beijing China
+                        ......
+                microsoft dataset:
+                        good better rough rougher
+                        ......
+        (2).word similarity:
+                WordSim-353:
+                        love    sex     6.77
+                        ......
+                calculateWordSim353.py: after learning word vectors, calculate wordsim353 spearman rank correlation coefficient.
+        (3).topic representation:
+                compare with LDA results:
+                
+        (4).sentence representation
+        
+        
 
 ===================================
 
-6.
+6. Conslusions
+        
 
 ===================================
 
