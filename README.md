@@ -42,7 +42,7 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
 ===================================
 
-4. Models:
+      Models:
 
 
         word2vec:proposed by Mikolov et al., available at https://code.google.com/p/word2vec/.
@@ -78,7 +78,7 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
 
 ===================================
 
-5. Experiments
+      Experiments
         
 
 
@@ -104,12 +104,9 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
         
 
 ===================================
+4.Conslusions
 
-6. Conslusions
-        
-
-
-        we ......
+            we ......
         
 
 ===================================
