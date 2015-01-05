@@ -41,8 +41,8 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
         In our experiments, we compare the LDA with our model TW about topic words.
 
 ===================================
+4.Models:
 
-      Models:
 
 
         word2vec:proposed by Mikolov et al., available at https://code.google.com/p/word2vec/.
@@ -77,9 +77,9 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
                 Skip-gram:
 
 ===================================
-
-      Experiments
+5.Experiments
         
+
 
 
         (1).word analogies:
@@ -104,7 +104,7 @@ author: Li-Qiang Niu, 2014.12.23, NanJing University.
         
 
 ===================================
-4.Conslusions
+6.Conslusions
 
             we ......
         
